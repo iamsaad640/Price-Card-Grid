@@ -1,0 +1,12 @@
+@media screen and (max-width:650px) {
+    .card{
+        width:auto;
+        margin:100px 10px;
+        height: auto;
+
+    }
+    .bottom-section{
+        flex-direction: column;
+    }
+}
+

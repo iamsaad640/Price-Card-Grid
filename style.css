@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'karla', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+
+.card{
+    height:400px;
+    width:600px;
+    background-color: white;
+    margin:100px auto;
+    box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.3);
+    border-radius:5px;
+    overflow: hidden;
+}
+
+.top-section{
+    height: 45%;
+    padding:25px;
+}
+
+.top-section h2 {
+    color:  hsl(179, 62%, 43%);
+    font-size: 1.4rem;
+}
+
+.top-section h4 {
+    margin-top:20px;
+    color:  hsl(71, 73%, 54%);
+    
+}
+
+.top-section p {
+    margin-top: 15px;
+    color:  hsl(218, 22%, 67%);
+    font-size: 0.9rem;
+}
+
+.bottom-section{
+    height: 55%;
+    color:hsl(204, 43%, 93%);
+    display:flex;
+}
+
+.inner-section{
+    flex-basis: 50%;
+    height:100%;
+    padding: 25px;
+}
+
+.inner-section > div {
+    margin-top: 20px;
+}
+
+.inner-section .price {
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.inner-section div .price-frequency {
+    font-size:0.8rem;
+    display: inline-block;
+    position: relative;
+    top:-3px;
+    opacity:0.7;
+}
+
+.inner-section p{
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+.inner-section button {
+    width:100%;
+    padding:10px;
+    color: hsl(204, 43%, 93%);
+    background-color: hsl(71, 73%, 54%);
+    border:none;
+    border-radius: 3px;
+    margin-top:20px;
+}
+
+.inner-section button:hover {
+    cursor:pointer;
+    background-color: #a9c42d;
+    transform: scale(1.02);
+
+}
+
+.sec-1 {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.sec-2 {
+    background-color: hsl(179, 63%, 47%);
+}
+
+
+.sec-2 ul {
+    list-style: none;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
